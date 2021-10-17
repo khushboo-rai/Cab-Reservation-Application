@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#153549"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:padding="20dp">
+    <ImageView
+        android:src="@drawable/adminn"
+        android:layout_width="75dp"
+        android:layout_height="75dp" />
+
+    <TextView
+        android:id="@+id/textViewEmailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Khushboo Rai"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewEmailEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="raikhushboo21@gmail.com"
+        android:textColor="@color/black" />
+</LinearLayout>

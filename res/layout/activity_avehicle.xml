@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#153549"
+    tools:context="com.example.taxi_book.AvehicleActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Vehicle Details"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="Vehicle Id"
+        android:inputType="textPersonName"
+        android:textColor="#0E0D0D"
+        android:textColorHint="#0E0D0D" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="Vehicle Name"
+        android:inputType="textPersonName"
+        android:textColor="#0E0D0D"
+        android:textColorHint="#0E0D0D" />
+
+    <EditText
+        android:id="@+id/Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="vahicle Number"
+        android:inputType="textPersonName"
+        android:textColor="#0E0D0D"
+        android:textColorHint="#0E0D0D" />
+
+    <EditText
+        android:id="@+id/ownerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="Owner Name"
+        android:inputType="textPersonName"
+        android:textColor="#0E0D0D"
+        android:textColorHint="#0E0D0D" />
+
+
+    <Spinner
+        android:id="@+id/vehiCondition"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="Vehicle Condition"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="500dp"
+        android:background="@color/purple_500"
+        android:padding="10dp"
+        android:text="Add Vehicle" />
+
+</LinearLayout>
